@@ -5,10 +5,8 @@ Backbone.$ = $;
 module.exports = Backbone.Model.extend({
 	defaults: {
 		_id: null,
-		username: null,
 		text: null,
-		imageId: null,
-		createdAt: null
+		imageId: null
 	},
 	urlRoot: "http://tiny-pizza-server.herokuapp.com/collections/tacotown/",
 	idAttribute: '_id'

@@ -2,9 +2,9 @@ var $ = require('jquery');
 var Backbone = require('backbone');
 Backbone.$ = $;
 
-var imagemodel = require('../models/imagemodel.js');
+var hashtagmodel = require('../models/hashtagmodel.js');
 
 module.exports = Backbone.Collection.extend({
-	model: imagemodel,
+	model: hashtagmodel,
 	url: "http://tiny-pizza-server.herokuapp.com/collections/tacotown/",
 });
